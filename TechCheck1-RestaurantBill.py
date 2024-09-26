@@ -10,6 +10,25 @@
 
 def main():
     # YOUR CODE STARTS HERE, each line must be indented (one tab)
+#    code for applying in meal cost
+    meal = float(input("Enter in meal cost amount"))
+
+    #tax rate is 15% of meal cost, or meal *0.15
+    tax = meal * (15/100)
+
+
+
+    # Tip amount for this program is 20% of meal cost or meal * 0.20
+    tip= meal * (20/100)
+
+
+    # code for total amount
+
+    total = meal + tax + tip
+
+     print("Tax Amount", tax)
+    print("Tip Amount", tip)
+    print("Total Amount", total)
 
 
 
